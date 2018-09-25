@@ -1,0 +1,5 @@
+.global-nav__logo {
+    background: url(blue_state-logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
