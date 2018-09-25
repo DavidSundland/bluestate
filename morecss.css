@@ -3,3 +3,48 @@
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
+.footer-nav__link.footer-nav__link--github::before {
+    background-image: url(http://www.fullstackdeveloper.pro/images/githubfontwhite.png);
+    background-size: 100%;
+    transform: rotate(15deg);
+}
+
+.footer-nav__link.footer-nav__link--linkedin::before {
+    background-image: url(http://www.fullstackdeveloper.pro/images/linkedinfontwhite.png);
+    background-size: 100%;
+    transform: rotate(10deg);
+}
+
+.footer-nav__link.footer-nav__link--angellist::before {
+    background-image: url(http://www.fullstackdeveloper.pro/images/angellistfontwhite.png);
+    background-size: 100%;
+    transform: rotate(15deg);
+}
+
+.footer-nav__link.footer-nav__link--email::before {
+    background-image: url(http://www.fullstackdeveloper.pro/images/emailfontwhite.png);
+    background-size: 100%;
+    transform: rotate(10deg);
+}
+
+.footer-nav__link.footer-nav__link--codewars::before {
+    background-image: url(http://www.fullstackdeveloper.pro/images/codewarsfontwhite.png);
+    background-size: 100%;
+    transform: rotate(15deg);
+}
+
+.footer-nav__link.footer-nav__link--districtconcerts::before {
+    background-image: url(district_concerts_white_square.png);
+    background-size: 100%;
+    transform: rotate(10deg);
+}
+
+.footer-nav__link.footer-nav__link--github:hover::before,
+.footer-nav__link.footer-nav__link--linkedin:hover::before,
+.footer-nav__link.footer-nav__link--angellist:hover::before,
+.footer-nav__link.footer-nav__link--email:hover::before,
+.footer-nav__link.footer-nav__link--codewars:hover::before,
+.footer-nav__link.footer-nav__link--districtconcerts:hover::before {
+    transform: rotate(0);
+}
